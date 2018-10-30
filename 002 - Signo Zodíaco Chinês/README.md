@@ -18,5 +18,7 @@ O Zodíaco chines é composto por animais com ciclo de _12 anos_. Uma maneira si
 |11|Carneiro|
 
 **a)** Crie uma lista com os signos.
+
 **b)** Crie uma função que receba do teclado os anos de nascimento dos membros de sua família, armazene em uma lista e retorne esta lista. A quantidade de membros da família é definida quando o usuário digitar `-1`, ou seja, enquanto o usuário não digitar `-1`, o ano de nascimento de um novo membro sera inserido na lista.
+
 **c)** Faça uma função que, usando as listas criadas nos itens `a` e `b`, mostre o signo de cada membro de sua família.
