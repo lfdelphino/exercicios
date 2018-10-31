@@ -8,4 +8,4 @@ while True:
     elif familiares and int(nascimento) == -1:
         for ordinal, nascimentoFamiliar in enumerate(familiares):
             print("{}º pessoa -> {} : {}"
-                  .format(ordinal, nascimentoFamiliar, signos[(100 * nascimentoFamiliar/12)]))
+                  .format(ordinal, nascimentoFamiliar, signos[int(nascimentoFamiliar) % 12]))
