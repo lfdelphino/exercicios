@@ -5,9 +5,9 @@ julgamento = ["Inocente", "Inocente", "Suspeito(a)", "Cúmplice", "Cúmplice", "
 
 while perguntas:
 	culpado = 0
-	for pergunta in perguntas:
+	for pergunta in perguntas.lower():
 		resposta = str(input(' '.join([pergunta, "(S/n) "])))
-		if "s" in resposta.lower:
+		if "s" in resposta.lower():
 			culpado += 1
 
 	fim = str(input("Você é {}!\nDeseja recomeçar? (Y/n)".format(julgamento[culpado])))
